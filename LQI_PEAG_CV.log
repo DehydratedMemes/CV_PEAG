@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.1)  11 NOV 2022 15:58
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.1)  12 NOV 2022 08:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/Usuario/Desktop/CV_2022/LQI_PEAG_CV.tex
-(c:/Users/Usuario/Desktop/CV_2022/LQI_PEAG_CV.tex
+**c:/Users/Usuario/Documents/PEAG-CV/CV_PEAG/LQI_PEAG_CV.tex
+(c:/Users/Usuario/Documents/PEAG-CV/CV_PEAG/LQI_PEAG_CV.tex
 LaTeX2e <2022-06-01> patch level 5
 L3 programming layer <2022-09-28> (simpleresumecv.cls
 Document Class: simpleresumecv 2016/12/25 Simple Resume CV https://github.com/z
@@ -1305,20 +1305,15 @@ Underfull \hbox (badness 4120) in paragraph at lines 11--16
 
 [1
 
-]) (CV-Experiencia_laboral.tex [2]
-CV-Experiencia_laboral.tex:27: Undefined control sequence.
-l.27 \DatestampYYYYMM
+]) (CV-Experiencia_laboral.tex
+CV-Experiencia_laboral.tex:26: Undefined control sequence.
+l.26 \DatestampYYYYMM
                      {2022-05} -- \textit{Actualmente}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--29
-
- []
 
 CV-Experiencia_laboral.tex:30: Undefined control sequence.
 l.30 ...nas de mi departamento involucran: \compac
@@ -1336,48 +1331,35 @@ dades cotidianas de mi departamento involucran: elaboración y mantenimiento de
 información
  []
 
+) (CV-Idiomas.tex) (CV-Habilidades.tex
 
-CV-Experiencia_laboral.tex:32: LaTeX Error: There's no line here to end.
+CV-Habilidades.tex:25: LaTeX Error: Environment paralist undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.32 \newline
-             
+l.25 \begin{paralist}
+                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 35.
+CV-Habilidades.tex:35: LaTeX Error: \begin{list} on input line 87 ended by \end
+{paralist}.
 
-Missing character: There is no – in font cmr9!
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 \end{paralist}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 36.
-
-Missing character: There is no – in font cmr9!
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 37.
-
-Missing character: There is no – in font cmr9!
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 38.
-
-Missing character: There is no – in font cmr9!
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 39.
-
-Missing character: There is no – in font cmr9!
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 40.
-
-Missing character: There is no – in font cmr9!
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 41.
-
-Missing character: There is no – in font cmr9!
-) (CV-Idiomas.tex) (CV-Habilidades.tex) (CV-Hobbies.tex)
+) (CV-Hobbies.tex)
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
 >  {latex/script}  =>  {latin}
@@ -1428,7 +1410,7 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 >  {spanishmx/target}  =>  {spanish}
 >  {spanishmx/variant}  =>  {mexican}
 >  {spanishmx/options}  =>  {variant=mexican}.
- [3] (LQI_PEAG_CV.aux
+ [2] (LQI_PEAG_CV.aux
 LaTeX Info: Redefining \rmfamily on input line 19.
 LaTeX Info: Redefining \sffamily on input line 19.
 LaTeX Info: Redefining \ttfamily on input line 19.
@@ -1445,12 +1427,12 @@ Package rerunfilecheck Info: File `LQI_PEAG_CV.out' has not changed.
 ### semi simple group (level 1) entered at line 74 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 40051 strings out of 410532
- 891894 string characters out of 2817562
- 1241038 words of memory out of 3000000
- 60700 multiletter control sequences out of 15000+600000
+ 40052 strings out of 410532
+ 891935 string characters out of 2817562
+ 1241037 words of memory out of 3000000
+ 60701 multiletter control sequences out of 15000+600000
  475139 words of font info for 79 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 101i,6n,105p,595b,1012s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 101i,6n,105p,603b,1012s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on LQI_PEAG_CV.pdf (3 pages).
+Output written on LQI_PEAG_CV.pdf (2 pages).
